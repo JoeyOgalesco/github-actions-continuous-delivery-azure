@@ -1,2 +1,5 @@
-name: build
+name: Stage the app
 
+on: 
+  pull_request:
+    types: build
